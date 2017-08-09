@@ -15,7 +15,7 @@ import java.util.Date;
 
 
 /**
- *获取运单号
+ *1、获取运单号接口
  *@author zpf
  *@mail   zhaopengfeihappy@gmail.com
  *@createtime 2017/8/8 10:22

@@ -2,19 +2,9 @@ package port;
 
 
 import util.HttpUtil;
-import util.TokenUtil;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
- * 货物跟踪记录查询
+ * 1、货物跟踪接口
  *
  * @author zpf
  * @mail zhaopengfeihappy@gmail.com
@@ -36,10 +26,7 @@ public class FreightDaisyTest {
          * 接口地址
          */
         String requestUrl = "http://10.39.251.213:8080/open-web/rs/waybill/v1/query/G4082357";
-        /**
-         * 运单号
-         */
-        String waybillNo = "G4082357";
+
 
 
         String result = HttpUtil.httpGet(keyString, companyId, requestUrl);
