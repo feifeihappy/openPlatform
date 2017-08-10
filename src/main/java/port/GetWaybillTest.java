@@ -26,11 +26,11 @@ public class GetWaybillTest {
         /**
          * 秘钥key
          */
-        String keyString = "kongwa123456";
+        String keyString = "";
         /**
          * 客户id
          */
-        String companyId = "kongwa";
+        String companyId = "";
         /**
          * 接口地址
          */

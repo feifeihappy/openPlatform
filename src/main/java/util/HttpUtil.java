@@ -226,6 +226,7 @@ public class HttpUtil {
      */
     public static String httpPost(String keyString, String companyId, String requestUrl, String content) throws Exception {
         URL realUrl = new URL(requestUrl);
+        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
         /**
          * 生成token
          */
@@ -233,7 +234,7 @@ public class HttpUtil {
         en.setContent(content);//参数
         en.setEncryptKey(keyString);//秘钥
         en.setReqMethod(TokenUtil.REQ_METHOD_POST);//请求方式  POST   GET
-        en.setReqTime(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));//请求时间
+        en.setReqTime(date);//请求时间
         en.setUri(realUrl.getPath());//请求uri
         String token = TokenUtil.generateToken(en);
 
@@ -242,7 +243,7 @@ public class HttpUtil {
          */
         Map<String, String> headers = new HashMap<String, String>();
         headers.put(HttpConstant.HEADER_TOKEN, token);
-        headers.put(HttpConstant.HEADER_REQUEST_TIME, new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+        headers.put(HttpConstant.HEADER_REQUEST_TIME, date);
         headers.put(HttpConstant.HEADER_COMPANYID, companyId);
         return postJson(content, requestUrl, headers);
     }

@@ -23,11 +23,11 @@ public class OrdersTest {
         /**
          * 秘钥key
          */
-        String keyString = "2FE0IESO586feleisFED";
+        String keyString = "";
         /**
          *  客户id
          */
-        String companyId = "LEFANGWANG";
+        String companyId = "";
 
         /**
          * 测试服务器:

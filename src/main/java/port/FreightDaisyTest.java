@@ -16,11 +16,11 @@ public class FreightDaisyTest {
         /**
          * 秘钥key
          */
-        String keyString = "ORL4eGeihgrLGGElgfe54";
+        String keyString = "";
         /**
          * 客户id
          */
-        String companyId = "ORL";
+        String companyId = "";
         /**
          * 测试服务器:
          * 接口地址
