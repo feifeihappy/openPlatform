@@ -16,21 +16,22 @@ public class FreightDaisyTest {
         /**
          * 秘钥key
          */
-        String keyString = "";
+        String keyString = "2FE0IESO586feleisFED";
         /**
          * 客户id
          */
-        String companyId = "";
+        String companyId = "LEFANGWANG";
         /**
          * 测试服务器:
          * 接口地址
          */
-        String requestUrl = "http://10.39.251.213:8080/open-web/rs/waybill/v1/query/G4082357";
+//        String requestUrl = "http://10.39.251.213:8080/open-web/rs/waybill/v1/query/G4082357";
+        String requestUrl = "http://open.hoau.net:8080/open-web/rs/waybill/v1/query/G4082357";
 
 
 
         String result = HttpUtil.httpGet(keyString, companyId, requestUrl);
-
+        System.out.println(result);
 
     }
 

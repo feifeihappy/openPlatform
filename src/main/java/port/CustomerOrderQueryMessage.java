@@ -15,11 +15,11 @@ public class CustomerOrderQueryMessage {
         /**
          * 秘钥key
          */
-        String keyString = "";
+        String keyString = "ORL4eGeihgrLGGElgfe54";
         /**
          * 客户id
          */
-        String companyId = "";
+        String companyId = "ORL";
         /**
          * 接口地址
          */

@@ -20,11 +20,11 @@ public class AgingQuery {
         /**
          * 秘钥key
          */
-        String keyString = "";
+        String keyString = "kongwa123456";
         /**
          *  客户id
          */
-        String companyId = "";
+        String companyId = "kongwa";
         /**
          * 测试服务器:
          * 接口地址
