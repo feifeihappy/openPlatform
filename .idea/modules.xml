@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/openPlatform.iml" filepath="$PROJECT_DIR$/openPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thinkinjava/thinkinjava.iml" filepath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" />
     </modules>
   </component>
 </project>
