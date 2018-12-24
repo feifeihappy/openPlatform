@@ -185,41 +185,8 @@ public class Test {
 //            System.out.println(list.contains(1));
 //
 
-        List<String> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            list.add(String.valueOf(i));
-        }
-
-        Set<String> hashSet = new HashSet<>();
-        Set<String> treeSet = new TreeSet<>();
 
 
-        List<String> linkedList = new LinkedList<>();
-
-
-        EmployeeDto employeeDto = new EmployeeDto();
-        employeeDto.getEmpName();
-        System.out.println(employeeDto.getEmpName());
-
-           Vector  vector =new Vector<>();
-
-
-        Map<String, String> map = new HashMap<>();
-        map.put("1", "value1");
-        map.put("2", "value2");
-        map.put("3", "value3");
-        map.keySet();
-        map.entrySet();
-        //第一种：普遍使用，二次取值
-        System.out.println("通过Map.keySet遍历key和value：");
-        for (String key : map.keySet()) {
-            System.out.println("key= "+ key + " and value= " + map.get(key));
-        }
-        for (String v : map.values()) {
-            System.out.println("value= " + v);
-        }
-        System.out.println("github测试提交代码");
-        System.out.println("github测试提交代码2");
     }
 
 
